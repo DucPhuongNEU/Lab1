@@ -11,7 +11,10 @@
     <title>CustomerList</title>
 </head>
 <body>
-<form id=listCustomer;>
+<!--form action="Test" method="post">
+
+</form-->
+<form >
     <h2 style="text-align:center";>Danh sách khách hàng</h2>
     <table border="1" ; style="width:100%">
         <tr>
@@ -19,17 +22,17 @@
             <th>Tên</th>
             <th>Tuổi</th>
         </tr>
-        <tr>
+        <tr onclick="window.location='/customerdetail?id=1'">
             <td>Phạm</td>
             <td>Văn Thành</td>
             <td>22</td>
         </tr>
         <tr>
-            <td>Trần</td>
+            <td onclick="window.location='/customerdetail?id=2'">Trần</td>
             <td>Văn Đạt</td>
             <td>19</td>
         </tr>
-        <tr>
+        <tr onclick="window.location='/customerdetail?id=3'">
             <td>Dương</td>
             <td>Minh Hằng</td>
             <td>18</td>
