@@ -14,7 +14,7 @@ public class customerdetail3 extends HttpServlet {
     }
 
     @Override
-    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
         resp.setContentType("txt/html");
         resp.setCharacterEncoding("UTF-8");
