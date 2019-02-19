@@ -6,7 +6,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-@WebServlet("/Customerdetail?id=3")
+@WebServlet(urlPatterns ="/customerdetail?id=3")
 public class customerdetail3 extends HttpServlet {
     /*public customerdetail3() {
         super();
