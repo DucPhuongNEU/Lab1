@@ -6,13 +6,13 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-@WebServlet("/customerdetail?id=3")
+@WebServlet("/Customerdetail?id=3")
 public class customerdetail3 extends HttpServlet {
-    public customerdetail3() {
+    /*public customerdetail3() {
         super();
         // TODO Auto-generated constructor stub
     }
-
+    */
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 

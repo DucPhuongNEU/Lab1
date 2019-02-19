@@ -9,12 +9,12 @@ import java.io.PrintWriter;
 
 @WebServlet("/customerdetail?id=1")
 public class customerInformation extends HttpServlet {
-
+/*
     public customerInformation() {
         super();
         // TODO Auto-generated constructor stub
     }
-
+*/
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
